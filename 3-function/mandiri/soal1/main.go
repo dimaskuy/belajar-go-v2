@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func nilaiAkhir(t, uts, uas int) int {
-	return int(float64(t)*0.3 + float64(uts)*0.3 + float64(uas)*0.4 + 0.5)
+	return int(float64(t)*0.3 + float64(uts)*0.3 + float64(uas)*0.4 + 0.5) // dibulatkan ke atas
 }
 
 func nilaiHuruf(n int) string {
